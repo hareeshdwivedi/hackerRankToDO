@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(-20deg, #3c1053ff 20%, #00203fff 80%);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr 2fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header header header""project-bar taskbar taskbar""footer footer footer";
+  column-gap: 10px;
+  row-gap: 15px;
+  height: 100vh;
+  font-family: 'montserrat';
+  color: white;
+}
+
+.header {
+  grid-area: header;
+}
+
+.taskbar {
+  grid-area: taskbar;
+}
+
+
+.project-bar {
+  grid-area: project-bar;
+  border-radius: 25px;
+  /* border-right: 2px solid rgb(33, 173, 154); */
+}
+
+.footer {
+  grid-area: footer;
+}

@@ -1,0 +1,16 @@
+img.socialLogo {
+  max-width: 3rem;
+  max-height: 3rem;
+  padding-right: 1rem;
+}
+
+.footer-row {
+  align-items: center;
+  min-height: 7vh;
+  background-color: #3c1053ff;
+}
+
+.footer-credits {
+  color: white;
+  flex-grow: 4;
+}
